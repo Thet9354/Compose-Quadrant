@@ -27,10 +27,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <!-- Replace "example.com" with your app's domain -->
+                <!-- Implementation of the Betr Beta website domain -->
                 <data
                     android:scheme="https"
-                    android:host="example.com" />
+                    android:host="www.betrbeta.com"
+                    android:pathPrefix="/"
+                    android:path="/"
+                    android:fragment="start" />
             </intent-filter>
         </activity>
     </application>
